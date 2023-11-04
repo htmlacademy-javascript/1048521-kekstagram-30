@@ -1,4 +1,3 @@
-
 function calculateLengthString(str, maxLength) {
   if(str.length <= maxLength) {
     return true;
@@ -30,4 +29,3 @@ findPalindromeString('Лёша на полке клопа нашёл ');
 findPalindromeString('топот');
 findPalindromeString('ДовОд');
 findPalindromeString('Кекс');
-
