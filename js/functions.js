@@ -14,12 +14,12 @@ calculateLengthString('Кексоид', 10);
 
 function findPalindromeString (str) {
   const newStr = str.replaceAll(' ', '').toLowerCase();
-  let p = '';
+  let palindrome = '';
   for(let i = newStr.length - 1; i >= 0; i--) {
-    p += newStr[i];
+    palindrome += newStr[i];
   }
 
-  if(newStr.toLowerCase() === p) {
+  if(newStr.toLowerCase() === palindrome) {
     return true;
   } else {
     return false;
@@ -30,3 +30,4 @@ findPalindromeString('Лёша на полке клопа нашёл ');
 findPalindromeString('топот');
 findPalindromeString('ДовОд');
 findPalindromeString('Кекс');
+
